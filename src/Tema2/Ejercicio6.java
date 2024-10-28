@@ -13,7 +13,8 @@ public class Ejercicio6 {
                 System.out.println("tu numero es mas pequeño que 0");
             } else if (numero>0){
                 System.out.println("tu numero es mas grande que 0");
-                                }sc.close();
-                    }
-        }
+            }
+        sc.close();
+    }
+}
 

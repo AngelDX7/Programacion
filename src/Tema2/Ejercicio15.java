@@ -22,7 +22,10 @@ public class Ejercicio15 {
                 System.out.println("Tu mes tiene 29 dias");
             } else {
                 System.out.println("Tu mes tiene 28 dias");
-            } sc.close();
+            }default:
+                System.out.println("Introduce un mes valido");
+
         }
+        sc.close();
     }
 }
